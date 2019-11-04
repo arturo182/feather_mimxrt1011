@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Battery_Management_Extra")(type "Legacy")(uri "${KIPRJMOD}/library/Battery_Management_Extra.lib")(options "")(descr ""))
+)
