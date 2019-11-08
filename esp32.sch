@@ -1,0 +1,311 @@
+EESchema Schematic File Version 5
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+Connection ~ 5200 3500
+Wire Wire Line
+	5250 2700 5200 2700
+$Comp
+L power:+3.3V #PWR021
+U 1 1 5E629686
+P 7050 2800
+F 0 "#PWR021" H 7050 2650 50  0001 C CNN
+F 1 "+3.3V" H 7050 2950 50  0000 C CNN
+F 2 "" H 7050 2800 50  0001 C CNN
+F 3 "" H 7050 2800 50  0001 C CNN
+	1    7050 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4000 6600 4000
+NoConn ~ 6550 4200
+Wire Wire Line
+	6550 4100 6600 4100
+$Comp
+L power:GND #PWR017
+U 1 1 5E60D9D4
+P 4750 2600
+F 0 "#PWR017" H 4750 2350 50  0001 C CNN
+F 1 "GND" V 4750 2400 50  0000 C CNN
+F 2 "" H 4750 2600 50  0001 C CNN
+F 3 "" H 4750 2600 50  0001 C CNN
+	1    4750 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5200 2800 5200 2700
+Wire Wire Line
+	6550 4900 6600 4900
+Wire Wire Line
+	5250 2600 5200 2600
+Wire Wire Line
+	5250 2900 5200 2900
+Wire Wire Line
+	6550 2600 6600 2600
+Wire Wire Line
+	5250 3500 5200 3500
+NoConn ~ 6550 3500
+Wire Wire Line
+	6600 2900 6550 2900
+Wire Wire Line
+	7050 2850 7050 2800
+NoConn ~ 5250 4700
+Connection ~ 5200 2800
+Connection ~ 5200 2600
+NoConn ~ 6550 5000
+NoConn ~ 6550 3000
+NoConn ~ 6550 4700
+Wire Wire Line
+	7050 3100 7050 3050
+NoConn ~ 5250 4900
+NoConn ~ 5250 4100
+Wire Wire Line
+	5250 2800 5200 2800
+Connection ~ 5200 2700
+Wire Wire Line
+	6550 3600 6600 3600
+NoConn ~ 6550 4500
+NoConn ~ 6550 2800
+NoConn ~ 5250 4200
+Wire Wire Line
+	5200 3500 5150 3500
+Wire Wire Line
+	4800 2600 4750 2600
+Connection ~ 7050 3100
+Wire Wire Line
+	6550 2700 6600 2700
+NoConn ~ 5250 4600
+NoConn ~ 6550 3700
+NoConn ~ 5250 3000
+NoConn ~ 6550 3400
+Wire Wire Line
+	7050 3100 7100 3100
+NoConn ~ 6550 4800
+NoConn ~ 6550 3900
+Wire Wire Line
+	5000 2600 5200 2600
+Wire Wire Line
+	5200 2900 5200 2800
+NoConn ~ 5250 4400
+NoConn ~ 5250 4800
+$Comp
+L power:+3.3V #PWR018
+U 1 1 5E604C4D
+P 5200 2550
+F 0 "#PWR018" H 5200 2400 50  0001 C CNN
+F 1 "+3.3V" H 5200 2700 50  0000 C CNN
+F 2 "" H 5200 2550 50  0001 C CNN
+F 3 "" H 5200 2550 50  0001 C CNN
+	1    5200 2550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6550 4600
+Wire Wire Line
+	5200 3500 5200 3550
+NoConn ~ 6550 4300
+Wire Wire Line
+	5200 2700 5200 2600
+NoConn ~ 5250 4300
+Wire Wire Line
+	5200 2600 5200 2550
+NoConn ~ 6550 3300
+NoConn ~ 6550 3200
+Wire Wire Line
+	6550 4400 6600 4400
+NoConn ~ 6550 3800
+NoConn ~ 6550 5100
+Wire Wire Line
+	5250 5100 5200 5100
+Wire Wire Line
+	5200 5100 5200 5150
+$Comp
+L power:GND #PWR020
+U 1 1 5E666FEB
+P 5200 5150
+F 0 "#PWR020" H 5200 4900 50  0001 C CNN
+F 1 "GND" H 5200 5000 50  0000 C CNN
+F 2 "" H 5200 5150 50  0001 C CNN
+F 3 "" H 5200 5150 50  0001 C CNN
+	1    5200 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3750 5200 3800
+$Comp
+L power:GND #PWR019
+U 1 1 5E6728D6
+P 5200 3800
+F 0 "#PWR019" H 5200 3550 50  0001 C CNN
+F 1 "GND" H 5200 3650 50  0000 C CNN
+F 2 "" H 5200 3800 50  0001 C CNN
+F 3 "" H 5200 3800 50  0001 C CNN
+	1    5200 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3100 7050 3100
+Text HLabel 6600 3600 2    50   Input ~ 0
+MOSI
+Text HLabel 6600 2900 2    50   Output ~ 0
+RX
+Text HLabel 6600 2700 2    50   Input ~ 0
+TX
+Text HLabel 6600 2600 2    50   Input ~ 0
+GPIO0
+Text HLabel 7100 3100 2    50   Input ~ 0
+~CS~
+Text HLabel 6600 4000 2    50   Input ~ 0
+SCK
+Text HLabel 6600 4400 2    50   Output ~ 0
+MISO
+Text HLabel 6600 4900 2    50   Output ~ 0
+BUSY
+Text HLabel 5150 3500 0    50   Input ~ 0
+~RST~
+Wire Wire Line
+	5250 3300 4700 3300
+Wire Wire Line
+	4700 3300 4700 3350
+Connection ~ 4700 3300
+Wire Wire Line
+	4700 3550 4700 3600
+$Comp
+L power:GND #PWR0109
+U 1 1 5E8753CE
+P 4700 3600
+F 0 "#PWR0109" H 4700 3350 50  0001 C CNN
+F 1 "GND" H 4700 3450 50  0000 C CNN
+F 2 "" H 4700 3600 50  0001 C CNN
+F 3 "" H 4700 3600 50  0001 C CNN
+	1    4700 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3550 4300 3600
+$Comp
+L power:GND #PWR0110
+U 1 1 5E87709B
+P 4300 3600
+F 0 "#PWR0110" H 4300 3350 50  0001 C CNN
+F 1 "GND" H 4300 3450 50  0000 C CNN
+F 2 "" H 4300 3600 50  0001 C CNN
+F 3 "" H 4300 3600 50  0001 C CNN
+	1    4300 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3350 4300 3300
+Wire Wire Line
+	4300 3300 4400 3300
+Wire Wire Line
+	4600 3300 4700 3300
+Connection ~ 4300 3300
+Wire Wire Line
+	4300 3250 4300 3300
+$Comp
+L RF_Module_Extra:ESP32-PICO-D4 U3
+U 1 1 5E5F4621
+P 5900 3800
+F 0 "U3" H 6400 5150 50  0000 R CNN
+F 1 "ESP32-PICO-D4" H 5900 2350 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.3x5.3mm" H 5900 2100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810010234_Espressif-Systems-ESP32-PICO-D4_C193707.pdf" H 6150 2800 50  0001 C CNN
+F 4 "C193707" H 5900 3800 50  0001 C CNN "LCSC"
+	1    5900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 5E623FF9
+P 7050 2950
+F 0 "R7" H 6992 2904 50  0000 R CNN
+F 1 "10K" H 6992 2995 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7050 2950 50  0001 C CNN
+F 3 "~" H 7050 2950 50  0001 C CNN
+	1    7050 2950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5E60D9E2
+P 4900 2600
+F 0 "C4" V 4850 2650 50  0000 L CNN
+F 1 "0.1uF" V 4850 2550 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4900 2600 50  0001 C CNN
+F 3 "~" H 4900 2600 50  0001 C CNN
+	1    4900 2600
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5E670CE9
+P 5200 3650
+F 0 "R6" H 5142 3604 50  0000 R CNN
+F 1 "10K" H 5142 3695 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5200 3650 50  0001 C CNN
+F 3 "~" H 5200 3650 50  0001 C CNN
+	1    5200 3650
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C37
+U 1 1 5E8748E9
+P 4700 3450
+F 0 "C37" H 4608 3404 50  0000 R CNN
+F 1 "TBD" H 4608 3495 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4700 3450 50  0001 C CNN
+F 3 "~" H 4700 3450 50  0001 C CNN
+	1    4700 3450
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C36
+U 1 1 5E876422
+P 4300 3450
+F 0 "C36" H 4208 3404 50  0000 R CNN
+F 1 "TBD" H 4208 3495 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4300 3450 50  0001 C CNN
+F 3 "~" H 4300 3450 50  0001 C CNN
+	1    4300 3450
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:L_Small L2
+U 1 1 5E878D42
+P 4500 3300
+F 0 "L2" V 4685 3300 50  0000 C CNN
+F 1 "TBD" V 4594 3300 50  0000 C CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 4500 3300 50  0001 C CNN
+F 3 "~" H 4500 3300 50  0001 C CNN
+	1    4500 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Antenna AE1
+U 1 1 5E87D610
+P 4300 3050
+F 0 "AE1" H 4350 2950 50  0000 L CNN
+F 1 "2450AT42B100" H 4350 2900 50  0001 L CNN
+F 2 "RF_Antenna_Extra:Johanson_2450AT42B100" H 4300 3050 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/611/2450AT42B100-1519442.pdf" H 4300 3050 50  0001 C CNN
+F 4 "609-2450AT42B100E" H 4300 3050 50  0001 C CNN "Mouser"
+	1    4300 3050
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC

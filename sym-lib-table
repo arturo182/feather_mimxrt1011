@@ -1,3 +1,7 @@
 (sym_lib_table
   (lib (name "Battery_Management_Extra")(type "Legacy")(uri "${KIPRJMOD}/library/Battery_Management_Extra.lib")(options "")(descr ""))
+  (lib (name "MCU_NXP_RT")(type "Legacy")(uri "${KIPRJMOD}/library/MCU_NXP_RT.lib")(options "")(descr ""))
+  (lib (name "Memory_Flash_Extra")(type "Legacy")(uri "${KIPRJMOD}/library/Memory_Flash_Extra.lib")(options "")(descr ""))
+  (lib (name "RF_Module_Extra")(type "Legacy")(uri "${KIPRJMOD}/library/RF_Module_Extra.lib")(options "")(descr ""))
+  (lib (name "LED_Extra")(type "Legacy")(uri "${KIPRJMOD}/library/LED_Extra.lib")(options "")(descr ""))
 )
