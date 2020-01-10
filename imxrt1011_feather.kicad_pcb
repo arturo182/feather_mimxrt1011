@@ -1,4 +1,4 @@
-(kicad_pcb (version 20190907) (host pcbnew "(5.99.0-290-g56525296b)")
+(kicad_pcb (version 20190907) (host pcbnew "(5.99.0-380-g9a82bc396)")
 
   (general
     (thickness 1.6)
@@ -38,7 +38,7 @@
     (stackup
       (layer "F.SilkS" (type "Top Silk Screen"))
       (layer "F.Paste" (type "Top Solder Paste"))
-      (layer "F.Mask" (type "Top Solder Mask") (thickness 0.01) (color "Green"))
+      (layer "F.Mask" (type "Top Solder Mask") (color "Green") (thickness 0.01))
       (layer "F.Cu" (type "copper") (thickness 0.035))
       (layer "dielectric 1" (type "core") (thickness 0.48) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
       (layer "GND.Cu" (type "copper") (thickness 0.035))
@@ -46,7 +46,7 @@
       (layer "PWR.Cu" (type "copper") (thickness 0.035))
       (layer "dielectric 3" (type "core") (thickness 0.48) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
       (layer "B.Cu" (type "copper") (thickness 0.035))
-      (layer "B.Mask" (type "Bottom Solder Mask") (thickness 0.01) (color "Green"))
+      (layer "B.Mask" (type "Bottom Solder Mask") (color "Green") (thickness 0.01))
       (layer "B.Paste" (type "Bottom Solder Paste"))
       (layer "B.SilkS" (type "Bottom Silk Screen"))
       (copper_finish "None")
@@ -89,10 +89,10 @@
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements 7FF7FF5F)
+    (visible_elements 7FFFFF5F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
-      (usegerberextensions false)
+      (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
@@ -114,9 +114,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "")
+      (outputdirectory "gerb/")
     )
   )
 
@@ -3887,7 +3887,7 @@
   (gr_text "by   arturo182\nNov 2019" (at 171.7 94.6 90) (layer "B.SilkS") (tstamp 5DCA0962)
     (effects (font (size 0.85 0.85) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "MIMXRT1011\n500MHz • 3.3V\n16MB FLASH\n128 KB RAM" (at 184.4 96.7 90) (layer "B.SilkS") (tstamp 5DC9F264)
+  (gr_text "MIMXRT1011\n500MHz • 3.3V\n8MB FLASH\n128 KB RAM" (at 184.4 96.7 90) (layer "B.SilkS") (tstamp 5DC9F264)
     (effects (font (size 0.85 0.85) (thickness 0.15)) (justify mirror))
   )
   (gr_text "3.7/4.2V\nLiPoly Battery\nUSB charge" (at 147 84.4) (layer "B.SilkS") (tstamp 5DC9EABF)
