@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "ESP32"
+Date "2020-01-10"
+Rev "2"
+Comp "arturo182"
 Comment1 ""
 Comment2 ""
 Comment3 ""
